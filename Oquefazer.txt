@@ -1,0 +1,24 @@
+yarn init -y
+yarn add typescript -D
+yarn tsc --init
+
+Mudar no tsconfig.json( "target": "es2017")
+yarn add ts-node-dev -D
+Mudar no package.json
+(  "scripts": {
+     "start": "tsnd --no-notify --respawn --transpile-only --ignore-watch node_modules ./src/server.ts"
+  },
+  )
+yarn add express
+yarn add @types/express -D
+
+yarn add knex sqlite3(nessh)
+yarn add cors
+yarn add @types/cors -D
+
+
+atualizar
+yarn install
+
+
+
